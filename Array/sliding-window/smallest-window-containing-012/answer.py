@@ -9,7 +9,6 @@ class Solution:
         for i in range(len(S)):
             temp.append(S[i])
             count += 1
-            print(temp)
             if len(temp) >= 2:
                 if S[i] == temp[0]:
                     if len(temp) == 2:
